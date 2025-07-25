@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PostMasterAI</title>
+    <script>
+      console.log("HTML: index.html loaded, JavaScript is working");
+      console.log("HTML: Document ready state:", document.readyState);
+      
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log("HTML: DOMContentLoaded event fired");
+        console.log("HTML: Root element exists:", !!document.getElementById('root'));
+      });
+      
+      window.addEventListener('load', function() {
+        console.log("HTML: Window load event fired");
+      });
+      
+      window.addEventListener('error', function(e) {
+        console.error("HTML: Global error caught:", e.error);
+        console.error("HTML: Error message:", e.message);
+        console.error("HTML: Error filename:", e.filename);
+        console.error("HTML: Error line:", e.lineno);
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="https://s3.us-east-1.amazonaws.com/assets.pythagora.ai/logos/favicon.ico" />
+    <script type="module" crossorigin src="/assets/index-CzJM_84O.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B5dUPSSc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      console.log("HTML: Body script executing");
+      console.log("HTML: About to load main.tsx");
+    </script>
+    <script>
+      console.log("HTML: After main.tsx script tag");
+    </script>
+  </body>
+</html>
